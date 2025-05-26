@@ -16,7 +16,10 @@ export default function About() {
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-gray-900">Skills</h3>
               <div className="flex flex-wrap gap-2">
-                {['React', 'TypeScript', 'Django', 'Next.js', 'TailwindCSS', 'MySQL','DataStructures','Figma','AdobeXD','RESTful APIs','Bootstrap','C++ & Python'].map((skill) => (
+                {[
+                  'React', 'TypeScript', 'Django', 'Next.js', 'TailwindCSS', 'MySQL',
+                  'DataStructures', 'Figma', 'AdobeXD', 'RESTful APIs', 'Bootstrap', 'C++ & Python'
+                ].map((skill) => (
                   <span
                     key={skill}
                     className="px-4 py-2 bg-indigo-50 text-indigo-600 rounded-full text-sm font-medium"
@@ -27,26 +30,29 @@ export default function About() {
               </div>
             </div>
           </div>
-        <div className="space-y-6">
-           {/*  <div className="bg-gray-50 p-6 rounded-lg">
+          
+          <div className="space-y-6">
+            <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Experience</h3>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="text-lg font-medium text-gray-900">Senior Developer @ Tech Corp</h4>
-                  <p className="text-gray-600">2020 - Present</p>
-                </div>
-                <div>
-                  <h4 className="text-lg font-medium text-gray-900">Full Stack Developer @ Startup Inc</h4>
-                  <p className="text-gray-600">2018 - 2020</p>
-                </div>
+              <div>
+                <h4 className="text-lg font-medium text-gray-900">Full-Stack Web Developer @ Engiversee</h4>
+                <p className="text-gray-600">April 2025 - Present</p>
+                <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                  <li>Designed and developed the entire website from scratch, including frontend and backend integration.</li>
+                  <li>Built key features such as mentorship booking, domain-based learning modules, and team showcase.</li>
+                  <li>Integrated secure payment functionality for events and services.</li>
+                  <li>Improved website speed and SEO for better performance and visibility.</li>
+                  <li>Handled version control and deployment using Git and GitHub.</li>
+                </ul>
               </div>
-            </div>*/}
+            </div>
+
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Education</h3>
               <div>
                 <h4 className="text-lg font-medium text-gray-900">B.Tech in Computer Science and Engineering</h4>
                 <p className="text-gray-600">Vignan's Institute of Information Technology</p>
-                <p className="text-gray-600">2022-2026</p>
+                <p className="text-gray-600">2022 - 2026</p>
                 <p className="text-gray-600"><b>CGPA:</b> 9.1</p>
               </div>
             </div>
