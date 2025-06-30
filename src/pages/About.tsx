@@ -35,14 +35,16 @@ export default function About() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Experience</h3>
               <div>
-                <h4 className="text-lg font-medium text-gray-900">Full-Stack Web Developer @ Engiversee</h4>
+                <h4 className="text-lg font-medium text-gray-900">Frontend Developer & webdesigner<br></br>
+                  @ Engiversee</h4>
                 <p className="text-gray-600">April 2025 - Present</p>
                 <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
-                  <li>Designed and developed the entire website from scratch, including frontend and backend integration.</li>
-                  <li>Built key features such as mentorship booking, domain-based learning modules, and team showcase.</li>
-                  <li>Integrated secure payment functionality for events and services.</li>
-                  <li>Improved website speed and SEO for better performance and visibility.</li>
-                  <li>Handled version control and deployment using Git and GitHub.</li>
+               <li>Built and maintained the website using React.js, focusing on functionality and performance.</li>
+<li>Implemented key features like mentorship booking, domain-based learning modules, and team showcase.</li>
+<li>Integrated Razorpay for secure payments for events and services.</li>
+<li>Enhanced site speed and visibility using SEO optimization techniques.</li>
+<li>Managed version control and deployments using Git and GitHub.</li>
+
                 </ul>
               </div>
             </div>
