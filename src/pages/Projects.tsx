@@ -28,7 +28,7 @@ export default function Projects() {
       live: 'https://github.com/Saitejaswini-25/plasticclassification.git',
     },
     {
-    title: 'Green cycle hub|Working',
+    title: 'Green cycle hub',
     description: 'Sustainable E-commerce',
     image: img2,
     technologies: ['Django', 'MySQL', 'Front End Frameworks'],
